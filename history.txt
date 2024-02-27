@@ -1,0 +1,40 @@
+  201  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  202  ls
+  203  head wilders.csv
+  204  get "France,2019,PHP" <wilders.csv | wc >php_france_2019.csv
+  205  gep "France,2019,PHP" <wilders.csv | wc >php_france_2019.csv
+  206  grep "France,2019,PHP" <wilders.csv | wc >php_france_2019.csv
+  207  head php_france_2019.csv
+  208  grep "Toulouse,Javascript" < wilders.csv | > JS_toulouse.csv
+  209  grep "Biarritz,Javascript" < wilders.csv | > JS_biarritz.csv
+  210  ls
+  211   cat JS_toulouse.csv JS_biarritz.csv | > javascript_biarritz_toulouse.csv
+  212  ls
+  213   head javascript_biarritz_toulouse.csv
+  214   head javascript_biarritz_toulouse.csv
+  215   head JS_toulouse.csv JS_biarritz.csv 
+  216  grep "Toulouse,JavaScript" < wilders.csv | > JS_toulouse.csv
+  217  grep "Biarritz,JavaScript" < wilders.csv | > JS_biarritz.csv
+  218   head JS_toulouse.csv JS_biarritz.csv 
+  219   head php_france_2019.csv
+  220  head wilders.csv
+  221  grep "Biarritz,JavaScript" wilders.csv > JS_biarritz.csv
+  222  grep "Toulouse,JavaScript"  wilders.csv > JS_toulouse.csv
+  223   head JS_toulouse.csv JS_biarritz.csv 
+  224  ls
+  225  grep "Toulouse;JavaScript"  wilders.csv > JS_toulouse.csv
+  226  grep "Biarritz;JavaScript" wilders.csv > JS_biarritz.csv
+  227   head JS_toulouse.csv JS_biarritz.csv 
+  228  grep "JavaScript" wilders.csv > JS.csv
+  229  head JS.csv
+  230  grep "Biarritz" JS.csv > JS_biarritz.csv
+  231  head JS_biarritz.csv.csv
+  232  head JS_biarritz.csv
+  233  grep "Toulouse"  JS.csv > JS_toulouse.csv
+  234   head JS_toulouse.csv JS_biarritz.csv 
+  235   cat JS_toulouse.csv JS_biarritz.csv | > javascript_biarritz_toulouse.csv
+  236   head javascript_biarritz_toulouse.csv
+  237   cat Swedish.csv Danish.csv Norwegian.csv  >scandinavian.csv
+  238  head scandinavian.csv
+  239   cat JS_toulouse.csv JS_biarritz.csv > javascript_biarritz_toulouse.csv
+  240   head javascript_biarritz_toulouse.csv
